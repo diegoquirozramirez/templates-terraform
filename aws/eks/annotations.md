@@ -9,3 +9,6 @@
 # Create Elastic IP
 ## 5 Step
 # Create NAT Gateway
+
+### ASOCIAR CONTEXT
+$ aws eks --region <region-code> update-kubeconfig --name <cluster_name> --profile <name_profile>
